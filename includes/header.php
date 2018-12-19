@@ -13,7 +13,7 @@
 	  <ol class="menu">
 			<li><a class="link"><i class="fas fa-newspaper"></i>News</a></li>
 			<li><a class="link"><i class="fas fa-user-cog"></i>My Account</a></li>
-			<li><a class="link"><i class="fas fa-shopping-cart"></i>Shop</a></li>
+			<li><a class="link"><i class="fas fa-shopping-cart"></i>Store</a></li>
 			<li><a class="link"><i class="far fa-comment-alt"></i>Forum</a></li>
 		</ol>
 		 <ol class="menu menu-right">

@@ -28,7 +28,6 @@ body {
 		min-height:500px;	
 	}
 	.new-post {
-		
 		width:300px;
 		margin:0 auto;
 		h3
@@ -76,15 +75,15 @@ body {
 }
 .loginPanelRight
 {
-
 	background-color: $loginPanelColor;
 	width:280px;
-	height: 210px;
+	height: auto;
 	position: absolute;
 	right:-280px;
 	border-radius:0px 0px 0px 10px;
 	top:60px;
 	transition: all 1s;
+	padding-bottom: 8px;
 	.form
 	{
 		text-align: center;
@@ -126,6 +125,10 @@ body {
 			{
 				padding:5px;
 			}
+		}
+		.signInButton
+		{
+			margin-top:10px;
 		}				
 	}
 }

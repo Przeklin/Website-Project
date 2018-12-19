@@ -107,12 +107,13 @@ body {
 .loginPanelRight {
   background-color: #4d4d4d;
   width: 280px;
-  height: 210px;
+  height: auto;
   position: absolute;
   right: -280px;
   border-radius: 0px 0px 0px 10px;
   top: 60px;
-  transition: all 1s; }
+  transition: all 1s;
+  padding-bottom: 8px; }
   .loginPanelRight .form {
     text-align: center;
     color: #FFF;
@@ -144,6 +145,8 @@ body {
       border-radius: 5px; }
       .loginPanelRight .form .signInButton i, .loginPanelRight .form .recoveryButton i {
         padding: 5px; }
+    .loginPanelRight .form .signInButton {
+      margin-top: 10px; }
 
 .loginPanelRight--show {
   right: 0px; }
