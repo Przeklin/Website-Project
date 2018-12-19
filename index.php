@@ -59,6 +59,7 @@
 			</div>
 		</div>
 	</div>
+	
 		<div  class="loginPanelRight">
 			<form class="form" id="loginfrom">
 					<div class="field">
@@ -68,6 +69,7 @@
 					<div class="field">
 						<label>Password</label>
 						<input type="password" name="pass">
+						
 					</div>
 				<button class="signInButton"><i class="fas fa-sign-in-alt"></i>Sign In</button>
 				<button class="recoveryButton"><i class="fas fa-redo-alt"></i>Forgot Account</button>
