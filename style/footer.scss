@@ -1,0 +1,59 @@
+
+.col
+{
+   position:relative;
+   display:inline-block;
+   width:150px;
+   height: 150px;
+}
+
+.foo-content ul,li{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	font-size:15px;
+}
+
+	.foo-content a
+{
+	text-decoration:none;
+	color:$mainFontColor;
+}
+
+	.footer-container
+{
+	width:100%;
+	background-color:$mainColor;
+	text-align:left;
+	display: flex;
+	height: 160px;
+}
+
+.foo-content
+{
+	 line-height:16px;
+	 float:left;
+	 padding:15px;
+	 color:$mainFontColor;
+	 padding-top:0px;
+	 padding-bottom:0px;
+	 
+}
+
+.foo-content h4
+{
+	font-size:17px;
+    text-align:center;
+	line-height:0px;
+}
+
+.foo-content i
+{
+	
+	padding:4px;
+}
+
+.footer-wrapper
+{
+	margin:0 auto;
+}

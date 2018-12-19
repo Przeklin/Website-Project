@@ -1,0 +1,136 @@
+body {
+	width: 100%;
+	overflow-x: hidden;
+}
+.body-content
+{
+	 min-height: calc(100vh - 60px - 160px);
+	 position: relative;	 
+}
+.leftwindow
+{
+	position:relative;
+	width:70%;
+	background-color:white;
+	font-size:20px;
+	text-align:left;
+	height: 100%;	
+	display: inline-flex;
+	flex-wrap: nowrap;
+	box-sizing: border-box;
+	align-items: top; 
+	justify-content: left;
+	.content 
+	{	
+		position:relative;
+		font-size:20px;
+		width:100%;
+		min-height:500px;	
+	}
+	.new-post {
+		
+		width:300px;
+		margin:0 auto;
+		h3
+		{
+			margin:0;
+			text-align: center;
+		}
+		.form-ui
+		{
+			padding:10px;
+			display:block;
+			cursor: default;
+			color:$mainFontColor;
+			background-color:$mainColor;
+			border-radius:5px;
+			.field
+			{
+				width: 85%;
+				margin:8px auto;
+				display: block;
+				line-height: 1em;
+				input[type=text]
+				{
+					display: block;
+					width: 100%;
+					border-radius:4px;
+				}
+				label
+				{
+					display: block;
+					width: 100%;
+				}		
+			}
+			input[type=submit]
+				{
+					display: block;
+					margin:5px auto;
+					background-color:#2e2e2e;
+					color:$mainFontColor;
+					cursor: pointer;
+					line-height: 25px;
+				}
+		}
+	}
+}
+.loginPanelRight
+{
+
+	background-color: $loginPanelColor;
+	width:280px;
+	height: 210px;
+	position: absolute;
+	right:-280px;
+	border-radius:0px 0px 0px 10px;
+	top:60px;
+	transition: all 1s;
+	.form
+	{
+		text-align: center;
+		color:$mainFontColor;
+		font-size: 16px;
+		.field
+		{
+			width: 85%;
+			margin:8px auto;
+			display: block;
+			line-height: 1em;
+			label {
+				display: block;
+				padding:4px 0;
+			}
+			input {
+				display:block;
+				margin: 0 auto;
+				border-radius: 4px;
+				width: 100%;
+				&:focus
+				{
+					outline:none;
+				}
+			}
+		}
+		.signInButton , .recoveryButton
+		{	
+			width:50%;
+			margin:5px auto;
+			display: block;
+			color:$mainFontColor;
+			background: $mainColor;
+			border: 1px solid white;
+			text-align: center;
+			cursor: pointer;
+			border-radius: 5px;
+			i
+			{
+				padding:5px;
+			}
+		}				
+	}
+}
+.loginPanelRight--show
+{
+	right:0px;
+}
+
