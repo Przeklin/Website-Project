@@ -58,7 +58,7 @@ body {
 
 .content-wrapper {
   position: relative;
-  width: calc(100vw - 400px);
+  width: calc(100vw - 350px);
   background-color: #d4d9de;
   font-size: 20px;
   text-align: left;

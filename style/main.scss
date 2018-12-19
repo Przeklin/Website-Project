@@ -7,15 +7,13 @@ body {
 	width: 340px;
 	background-color:$asidePanelColor;
 	position: relative;
-	
 	min-height: calc(100vh - 60px - 160px);
 }
 .content-wrapper
 {	
 	position: relative;	 
-	width: calc(100vw - 400px);
+	width: calc(100vw - 350px);
 	background-color:$leftPanelColor;
-	
 	font-size:20px;
 	text-align:left;
 	min-height: calc(100vh - 60px - 160px);
