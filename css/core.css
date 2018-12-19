@@ -51,14 +51,14 @@ body {
   overflow-x: hidden; }
 
 .aside {
-  width: 340px;
+  width: 200px;
   background-color: #434d57;
   position: relative;
   min-height: calc(100vh - 60px - 160px); }
 
 .content-wrapper {
   position: relative;
-  width: calc(100vw - 350px);
+  width: 60%;
   background-color: #d4d9de;
   font-size: 20px;
   text-align: left;

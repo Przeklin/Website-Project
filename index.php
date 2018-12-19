@@ -57,8 +57,9 @@
 	</div>
 		
 		<div class="aside">
+			Partner references
 			</div>
-		<div  class="loginPanelRight">
+	 <div  class="loginPanelRight">
 			<form class="form" id="loginfrom">
 					<div class="field">
 						<label style="cursor: default;">Nickname</label>
@@ -72,7 +73,7 @@
 				<button class="signInButton"><i class="fas fa-sign-in-alt"></i>Sign In</button>
 				<button class="recoveryButton"><i class="fas fa-redo-alt"></i>Forgot Account</button>
 			</form>
-		</div>
+		</div> 
 	<!--footer-->
 	<?php require 'includes/footer.php' ?>
 	<!--/footer-->
