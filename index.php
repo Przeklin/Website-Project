@@ -5,10 +5,7 @@
 	<!-- /header -->
 	
 	<!-- body content-->
-	
-	<div class="body-content">
-
-		<div class="leftwindow">
+		<div class="content-wrapper">
 			 <div class="content">
 				<h3>Latest News</h3>
   				<div class="post-list">
@@ -57,8 +54,10 @@
 					</form>
 				</div>
 			</div>
-		</div>
 	</div>
+		
+		<div class="aside">
+			</div>
 		<div  class="loginPanelRight">
 			<form class="form" id="loginfrom">
 					<div class="field">

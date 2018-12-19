@@ -50,62 +50,63 @@ body {
   width: 100%;
   overflow-x: hidden; }
 
-.body-content {
-  min-height: calc(100vh - 60px - 160px);
-  position: relative; }
-
-.leftwindow {
+.aside {
+  width: 340px;
+  background-color: #434d57;
   position: relative;
-  width: 70%;
-  background-color: white;
+  min-height: calc(100vh - 60px - 160px); }
+
+.content-wrapper {
+  position: relative;
+  width: calc(100vw - 400px);
+  background-color: #d4d9de;
   font-size: 20px;
   text-align: left;
-  height: 100%;
-  display: inline-flex;
-  flex-wrap: nowrap;
-  box-sizing: border-box;
-  align-items: top;
-  justify-content: left; }
-  .leftwindow .content {
-    position: relative;
+  min-height: calc(100vh - 60px - 160px); }
+  .content-wrapper .content {
     font-size: 20px;
     width: 100%;
-    min-height: 500px; }
-  .leftwindow .new-post {
+    min-height: 100%; }
+    .content-wrapper .content h3 {
+      margin: 0; }
+  .content-wrapper .new-post {
     width: 300px;
     margin: 0 auto; }
-    .leftwindow .new-post h3 {
+    .content-wrapper .new-post h3 {
       margin: 0;
       text-align: center; }
-    .leftwindow .new-post .form-ui {
+    .content-wrapper .new-post .form-ui {
       padding: 10px;
       display: block;
       cursor: default;
       color: #FFF;
-      background-color: #333;
+      background-color: #424242;
       border-radius: 5px; }
-      .leftwindow .new-post .form-ui .field {
+      .content-wrapper .new-post .form-ui .field {
         width: 85%;
         margin: 8px auto;
         display: block;
         line-height: 1em; }
-        .leftwindow .new-post .form-ui .field input[type=text] {
+        .content-wrapper .new-post .form-ui .field input[type=text] {
           display: block;
           width: 100%;
           border-radius: 4px; }
-        .leftwindow .new-post .form-ui .field label {
+        .content-wrapper .new-post .form-ui .field label {
           display: block;
           width: 100%; }
-      .leftwindow .new-post .form-ui input[type=submit] {
+      .content-wrapper .new-post .form-ui input[type=submit] {
         display: block;
         margin: 5px auto;
-        background-color: #2e2e2e;
         color: #FFF;
+        background: #333;
+        border: 1px solid white;
+        text-align: center;
         cursor: pointer;
+        border-radius: 5px;
         line-height: 25px; }
 
 .loginPanelRight {
-  background-color: #4d4d4d;
+  background-color: #424242;
   width: 280px;
   height: auto;
   position: absolute;

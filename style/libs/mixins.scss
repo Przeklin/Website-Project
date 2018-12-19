@@ -1,0 +1,9 @@
+@mixin defaultButton($color:$mainFontColor,$background:$mainColor)
+{
+    color:$color;
+    background: $background;
+    border: 1px solid white;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+}

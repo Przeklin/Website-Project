@@ -2,30 +2,32 @@ body {
 	width: 100%;
 	overflow-x: hidden;
 }
-.body-content
+.aside
 {
-	 min-height: calc(100vh - 60px - 160px);
-	 position: relative;	 
+	width: 340px;
+	background-color:$asidePanelColor;
+	position: relative;
+	
+	min-height: calc(100vh - 60px - 160px);
 }
-.leftwindow
-{
-	position:relative;
-	width:70%;
-	background-color:white;
+.content-wrapper
+{	
+	position: relative;	 
+	width: calc(100vw - 400px);
+	background-color:$leftPanelColor;
+	
 	font-size:20px;
 	text-align:left;
-	height: 100%;	
-	display: inline-flex;
-	flex-wrap: nowrap;
-	box-sizing: border-box;
-	align-items: top; 
-	justify-content: left;
+	min-height: calc(100vh - 60px - 160px);
 	.content 
 	{	
-		position:relative;
 		font-size:20px;
 		width:100%;
-		min-height:500px;	
+		min-height:100%;
+		h3 
+		{
+			margin:0;
+		}	
 	}
 	.new-post {
 		width:300px;
@@ -41,7 +43,7 @@ body {
 			display:block;
 			cursor: default;
 			color:$mainFontColor;
-			background-color:$mainColor;
+			background-color:$loginPanelColor;
 			border-radius:5px;
 			.field
 			{
@@ -65,9 +67,7 @@ body {
 				{
 					display: block;
 					margin:5px auto;
-					background-color:#2e2e2e;
-					color:$mainFontColor;
-					cursor: pointer;
+					@include defaultButton();
 					line-height: 25px;
 				}
 		}
@@ -115,12 +115,7 @@ body {
 			width:50%;
 			margin:5px auto;
 			display: block;
-			color:$mainFontColor;
-			background: $mainColor;
-			border: 1px solid white;
-			text-align: center;
-			cursor: pointer;
-			border-radius: 5px;
+			@include defaultButton();
 			i
 			{
 				padding:5px;

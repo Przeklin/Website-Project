@@ -7,6 +7,7 @@ body
     padding: 0;
 }
 @import './libs/colors.scss';
+@import './libs/mixins.scss';
 @import './header.scss';
 @import './main.scss';
 @import './footer.scss';
